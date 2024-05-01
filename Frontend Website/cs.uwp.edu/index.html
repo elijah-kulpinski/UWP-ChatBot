@@ -1,0 +1,257 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta name = "author" contents="Rev. 7-17-2023 by A.A.">
+
+<meta name="google-site-verification" content="9dc0_vnd60thL6mb_tIkQvls69Xu1PYaW7OKQQYdPGk" />
+
+
+<!-- Tracking traffic for this page -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PYDE07EB52"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PYDE07EB52');
+</script>
+
+
+
+<!-- SEO for Computer Science keywords -->
+
+
+<meta name="keywords" content="kenosha, wi, best, 2023, computer, science, school, class, university, course, degree, programming, class, developer, artificial intelligence, data analytics, deep learning, big data, data science, cybersecurity, cloud computing, virtual reality, software developer, software engineer, wisconsin, 53144, uwp, university of wisconsin parkside, parkside, university, college" > 
+<meta name="description" content="UW Parkside Computer Science Department Pages">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<link href="templates/styles/structure1.css" rel="stylesheet" type="text/css" />
+<link href="templates/styles/navbannerstyleddmenu.css" rel="stylesheet" type="text/css" />
+<link href="templates/styles/noprint.css" rel="stylesheet" type="text/css" media="print" />
+
+<title>University of Wisconsin&ndash;Parkside: Computer Science</a></title>
+</head>
+<body>
+
+<!-- #FFF00 is transparent with web clone, #FFFFF is default chat window background, #3A7657 is light green for UWP Theme -->
+
+<script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.init({
+        chatflowConfig: {
+            // topK: 2
+        },
+        observersConfig: {
+          // (optional) Allows you to execute code in parent based upon signal observations within the chatbot.
+          // The userinput field submitted to bot ("" when reset by bot)
+          observeUserInput: (userInput) => {
+            console.log({ userInput });
+
+            fetch("http://127.0.0.1:8080/chat", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({ messages: userInput }),
+            })
+              .then((response) => response.json())
+              .then((data) => {
+                console.log("Success:", data);
+              })
+              .catch((error) => {
+                console.error("Error:", error);
+              });
+          },
+          // The bot message stack has changed
+          observeMessages: (messages) => {
+            console.log({ messages });
+          },
+          // The bot loading signal changed
+          observeLoading: (loading) => {
+            console.log({ loading });
+          },
+        },
+        theme: {
+            button: {
+                backgroundColor: "#FFFFF",
+                right: 10,
+                bottom: 10,
+                size: "small",
+                iconColor: "green",
+                customIconSrc: "images/chat.png",
+            },
+            chatWindow: {
+                welcomeMessage: "Welcome to the Parkside CS Program. How can I assist you today?",
+                height: 500,
+                width: 150,
+                fontSize: 16,
+                botMessage: {
+                    backgroundColor: "#f7f8ff",
+                    textColor: "#303235",
+                    showAvatar: true,
+                    avatarSrc: "images/favicon.ico",
+                },
+                userMessage: {
+                    backgroundColor: "#3B81F6",
+                    textColor: "#ffffff",
+                    showAvatar: true,
+                    avatarSrc: "https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png",
+                },
+                textInput: {
+                    placeholder: "Type your question",
+                    backgroundColor: "#ffffff",
+                    textColor: "#303235",
+                    sendButtonColor: "#3A7657",
+                }
+            }
+        }
+    })
+</script>
+
+
+<div class="container_12">
+<div class="grid_12" id="header">
+<div class="grid_9 alpha">
+<div id="deptname"><a href="https://www.uwp.edu/learn/programs/computersciencemajor.cfm" target="Computer Science Major">Computer Science</a></div>
+<div id="uwp"><a href="https://www.uwp.edu" rel="canonical">University of Wisconsin&ndash;Parkside</a></div>
+</div>
+    
+    
+    
+    <div class="grid_3 omega" id="deptinfo">
+      <p><a href="https://uwp.edu" rel="canonical">UW&ndash;Parkside HOME</a><br />
+        262-595-2314<br />
+          </p>
+    </div>
+
+  </div>
+  
+</div>
+<div style="clear:both"></div>
+
+<div class="container_12"> 
+
+<div class="grid_12" id="navBar">
+<div class="grid_11" id="nblinks">
+<ul>
+
+<li><a href="policyst.html">CS Account Policy</a></li>
+
+<li><a href="schedule.html">Lab Schedule</a></li>
+
+<li><a href="connect.html">Connecting to Lab</a></li>
+
+<!--<li><a href="software.html">Course Software</a></li>-->
+<li>-</li>
+
+<!--<li><a href="account/" rel="nofollow" >Password Reset</a></li>-->
+
+</li>
+
+</ul>
+     
+
+</div>
+</div> 
+</div> 
+
+  
+  
+
+  
+  
+<div class="container_12" id="contentarea">  
+
+
+  
+<div class="grid_3 alpha" id="leftcolumn" style="border-left:2px solid #004731; border-right: 2px solid #004731;">
+  
+<div class="sectionheader"><p>UW-Parkside Pages</p></div>
+<ul id="main-nav">
+<li></li>
+
+<li><a href="https://cs.uwp.edu" rel="canonical">Home</a></li>
+<li><a href="https://www.uwp.edu/learn/programs/computersciencemajor.cfm">Computer Science Major</a></li>
+<li><a href="https://www.uwp.edu/learn/departments/computerscience/">Computer Science Department</a></li>
+</ul>
+
+<div class="sectionheader"><p>Department Webpages</p></div>
+<ul id="main-nav">
+<li></li>
+
+<li><a href="Classes/Cs241/index.html" rel="nofollow">Computer Science I</a></li>
+<li><a href="https://appfactoryuwp.com" rel="canonical">App Factory</a></li>
+</ul>
+
+<br />
+  
+  </div>
+
+  
+  <div class="grid_9" id="text">
+  
+
+
+<title>UWP CS Policy</title>
+<style type="text/css">
+tt
+{
+	font-size: 9pt;
+}
+
+</style>
+
+<!-- Computer Account Policy Begin -->
+<ul>
+<h2 style="text-align: center;">Department of Computer Science</h2>
+<h2 style="text-align: center;">University of Wisconsin-Parkside</h2>
+
+<div>
+<h3 style="text-align: center;">Computer Account Policy</h3>
+<p>This policy is established by the Department of Computer Science to provide the department’s students, staff and faculty the computational and network resources needed to meet their recognized educational, research and administrative commitments.  Due to the limited nature of available computing and network resources, all users are expected to used good judgment in sharing these resources and to avoid wasteful and abusive activities.  Computer and/or network usage not necessary to meet recognized educational, research and administrative commitments to the Department of Computer Science or to UW-Parkside will be considered wasteful, including unnecessary storage of disk files, careless execution of resource-consuming processes, or the generation of excessive network traffic or printed output.</p>
+<p>In addition to adhering to the general guidelines above, the following specific limitations are placed on Department of Computer Science computer account holders:</p>
+<ol>
+	<li>Nobody else may use accounts assigned to you, even if he or she has your permission.  You are to use only accounts assigned to you.</li>
+	<li>Your account is provided for legitimate activities directly relating to the mission of UW-Parkside.  Any other use may result in loss of privileges.</li>
+	<li>Under certain circumstances, it may be necessary for a staff member to examine your files (protected or otherwise).  You are responsible for the content and size of all files in accounts assigned to you.  Disk files not related to legitimate activities directly relating to the mission of UW-Parkside and/or which consume large amounts of space may be removed without warning.</li>
+	<li>Processes which consume excessive system resources, or which are objectionably degrading system<br>response or network access may be terminated without warning by system staff.</li>
+	<li>You may not harass or threaten other users on this system or any computer with which this system communicates.  You may not attempt to acquire, access or modify passwords, files, accounts or other information that does not belong to you.  You may not attempt to crash, violate the integrity of, or adversely affect the activities of the computer system or the network.  Distasteful or offensive displays and printouts are not permitted.  Physical abuse, mishandling and modification of workstations, printer and other hardware is not permitted.</li>
+	<li>Computer operating system and related software are operated at UW-Parkside under software license<br>agreements.  Under these agreements, the software may be used for instructional, research and administrative purposes only.  It is a violation of these agreements, and of Wisconsin statutes, to copy or transmit this software in printed or machine-readable form, or to use the software or computer system for personal gain, or to place a third party in a position of commercial advantage.</li>
+	<li>Occurrences of misconduct in any of these areas may result in loss of computer and/or network access; flagrant violation may result in legal action.</li>
+</ol>
+<p></p>
+<ul>
+	<li style="color:rgb(165,2,3);">NO Food or Drinks are allowed in the lab!  The designated location for eating/drinking is the Brickstone Grill & Eatery.</li>
+</ul>
+<p></p>
+<p>I have read and understood the above policy.  I understand that failure to abide by the letter and spirit of this policy will result in the loss of my privileges.  I further realize that this policy applies to all accounts that I may have on this campus.</p>
+
+</div>
+
+<!-- Computer Account Policy End-->
+
+<div class="container_12" align="center">  
+  <div class="grid_9" id="footer">
+    <div class="grid_8 alpha" id="logo"> <a href="http://www.uwp.edu"><img src="images/uwparkside_logo.png" alt="UW-Parkside" border="0" /></a> </div>
+    <div class="grid_8 omega" id="info">
+      	
+	
+	<p>&copy; University of Wisconsin-Parkside &#8226; 900 Wood Road &#8226; PO Box 2000 Kenosha, WI 53141-2000<br /></p>
+    </div>
+  </div>
+  </div>
+  <div style="clear:both"></div>
+
+  
+</div>  
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,34 @@
+[
+  [
+    {
+      "ID1": "e4bcc",
+      "question1": "This information seems to be related to a file named \"MultiplicationTable\".\n What is the size of the file \"MultiplicationTable\"?",
+      "answer1": "The size of the file \"MultiplicationTable\" is 1.6 kilobytes.",
+      "category1": "About Us | Academics",
+      "paragraph1": "Index of /Classes/Cs241/Examples/2DArrays Index of /Classes/Cs241/Examples/2DArrays NameLast modifiedSizeDescription Parent Directory - MultiplicationTable...>2015-09-01 13:57 1.6K"
+    },
+    {
+      "ID2": "1b14f",
+      "question2": "This information seems to be related to a file named \"MultiplicationTable.\" \n\n What is the size of the file \"MultiplicationTable\"?",
+      "answer2": "The file \"MultiplicationTable\" has a size of 1.6 kilobytes.",
+      "category2": "Academics | Academics",
+      "paragraph2": "Index of /Classes/Cs241/Examples/2DArrays Index of /Classes/Cs241/Examples/2DArrays NameLast modifiedSizeDescription Parent Directory - MultiplicationTable...>2015-09-01 13:57 1.6K"
+    }
+  ],
+  [
+    {
+      "ID1": "70cb7",
+      "question1": "This information seems to be a list of Java files with their sizes and modification dates.\n\n What is the size of the file 'Stats.java' and when was it last modified?",
+      "answer1": "The file 'Stats.java' has a size of 1.8K and was last modified on September 1, 2015 at 13:57.",
+      "category1": "Academics | About Us",
+      "paragraph1": "Index of /Classes/Cs241/Examples/BasicArrays Index of /Classes/Cs241/Examples/BasicArrays NameLast modifiedSizeDescription Parent Directory - TryArrayParam.java 2015-09-01 13:57 2.9K Stats.java 2015-09-01 13:57 1.8K ParameterPrint.java 2015-09-01 13:57 963 CopyArrayExample.java 2015-09-01 13:57 942 InstantiateFillPrint..>2015-09-01 13:57 869"
+    },
+    {
+      "ID2": "9c695",
+      "question2": "This information seems to be a directory listing of Java files with their sizes and dates. \n\n What is the size of the file 'Stats.java' and when was it last modified?",
+      "answer2": "The file 'Stats.java' has a size of 1.8K and was last modified on September 1, 2015 at 13:57.",
+      "category2": "Academics | About Us",
+      "paragraph2": "Index of /Classes/Cs241/Examples/BasicArrays Index of /Classes/Cs241/Examples/BasicArrays NameLast modifiedSizeDescription Parent Directory - TryArrayParam.java 2015-09-01 13:57 2.9K Stats.java 2015-09-01 13:57 1.8K ParameterPrint.java 2015-09-01 13:57 963 InstantiateFillPrint..>2015-09-01 13:57 869 CopyArrayExample.java 2015-09-01 13:57 942"
+    }
+  ]
+]

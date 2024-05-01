@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#imghighlight, #topImage, #highlight, #navbar, #leftcolumn, #main-nav, .noPrint, #navBar {
+display:none;	
+}
+
+#contentarea, BContent, BContent1, BContent2, p, text {
+	width:100%;
+	color:#000;
+}
+
+body {
+	background-color:#FFF;
+	color:#000;
+}

@@ -1,0 +1,262 @@
+
+/* Designed by UW-P student Matthew Goetsch*/
+
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:.75em;
+	background-image:url(../images/greengradient.jpg);
+	background-repeat:repeat-x;
+}
+#header {
+	background-color: #FFF;
+	margin-top:50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+		padding-left:20px;
+	padding-right:0px;
+	margin-left:0px;
+
+}
+#header a:hover {
+	text-decoration: underline;
+}
+#header a {
+	color: #000;
+	text-decoration: none;
+}
+#header #deptname {
+	text-transform: uppercase;
+	font-size:2.55em;
+}
+#header #uwp {
+	font-size: 1.25em;
+}
+#header #contact {
+	font-size: .88em;
+	text-align: right;
+}
+
+
+#navBar {
+	height: 75px;
+	padding-left:30px;
+	padding-right:30px;
+	margin-left:-20px;
+	background-image: url(../images/navBGgreen.png);
+}
+
+
+#nblinks, #nblinks ul {
+	float:left;
+	width: 960px;
+	list-style: none;
+	line-height: 1;
+	padding: 0;
+	margin: 0;
+	
+}
+
+
+#nblinks a {
+	display: block;
+	width: 185px;
+	color: #fff;
+	font-size:1.2em;
+	text-decoration: none;
+	padding-top: 1.25em;
+	padding-bottom: 0.25em;
+	padding-left: 0em;
+	padding-right: .5em;
+	text-align:left;
+}
+
+
+
+
+#navimgs a {
+	display: inline;
+	color: #fff;
+	text-decoration: none;
+	padding-top: 1.25em;
+	padding-bottom: 0.25em;
+	padding-left: 0em;
+	padding-right: .5em;
+	text-align:left;
+}
+
+
+#nblinks li {
+	float: left;
+	padding: 0;
+	width: 16em;
+	
+}
+
+#nblinks li ul {
+	position:absolute;
+	left: -999em;
+	height: auto;
+	width: 12em;
+	font-weight: normal;
+	border: .1em solid #004731;
+	margin: 0;
+	background-color:#fffffa;
+	color:#000;
+
+}
+
+
+#nblinks li ul a {color: #000; font-size:.9em; padding-left:.5em; padding-top: 5px;
+	padding-bottom: 5px;}
+
+
+#nblinks li li {
+	width: 12em;
+}
+
+#nblinks li ul a {
+	width: 12.5em;
+	border-bottom: .1em solid #004731;
+}
+
+#nblinks li ul ul {
+	margin: 0 0 0 14em;
+}
+
+#nblinks li:hover, #nblinks li.hover {  
+     position: static;  
+ } 
+
+#nblinks li:hover ul ul, #nblinks li.sfhover ul ul {
+	left: -999em;
+}
+
+#nblinks li:hover ul, #nblinks li li:hover ul, #nblinks li.sfhover ul, #nblinks li li.sfhover ul {
+	left: auto;
+}
+
+#nblinks li:hover, #nblinks li.sfhover {
+	background: none;
+}
+
+#nblinks li ul li:hover, #nblinks li ul li.sfhover {
+	background: #c9b679;
+	border-left: none;
+	
+}
+
+
+#contentarea {
+	background-color:#FFF;
+	padding-bottom:10px;
+}
+.sectionheader{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#004731;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	font-weight:bold;
+	font-size:1.2em;
+	margin-left: 5px; margin-right: 5px;
+	padding-top: 5px;
+}
+
+
+#leftcolumn {float:left; clear:none; width:185px;}
+ul#main-nav {margin-left:5px;margin-right: 5px; padding:0;width:auto;}
+ul#main-nav li {margin:0;padding:0;list-style:none;margin:0 0 0.3em 0;}
+ul#main-nav li a {font-weight:normal;text-decoration:none;display:block;padding:0.3em;border-bottom:2px solid #fff;color:black;background:#fff;}
+ul#main-nav li a:hover {border-bottom:2px solid #004731; color:#000;}
+
+
+#text a:link {text-decoration: none; font-weight: bold; color:#004731;}
+#text a:visited {text-decoration: none; font-weight: bold; color: #004731;}
+#text a:hover {text-decoration: none; font-weight: bold; color: #004731; border-bottom:dotted thin #004731;} 
+
+
+#text {
+
+}
+#text h1 {
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+}
+
+#text h3 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#004731;
+	font-weight:bold;
+	font-size:1.5em;
+}
+#text p {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+}
+
+#BContent {
+	font-size:.9em;
+	padding-top: 1.57em;
+	padding-bottom: 1.57em;
+}
+#BContent h4 {
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#004731;
+	font-weight:bold;
+	font-size:1.2em;
+}
+
+#Bcontent1 a:link {text-decoration: none; color:#004731;}
+#Bcontent1 a:visited {text-decoration: none;  color: #004731;}
+#Bcontent1 a:hover {text-decoration: none; color: #004731; border-bottom:dotted thin #004731;} 
+
+#Bcontent2 a:link {text-decoration: none; color:#004731;}
+#Bcontent2 a:visited {text-decoration: none;  color: #004731;}
+#Bcontent2 a:hover {text-decoration: none; color: #004731; border-bottom:dotted thin #004731;} 
+
+
+#footer {
+	background-color: #fff;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #000;
+	padding-top:15px;
+}
+#footer a {
+	text-decoration: none;
+	color: #004731;
+	font-weight: bold;
+}
+#footer a:hover {
+	text-decoration: underline;
+}
+#footer #logo {
+	text-align:center;
+}
+#footer #info {
+	font-size:.9em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
